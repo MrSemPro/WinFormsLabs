@@ -1,0 +1,54 @@
+C:\Users\MrSemPro\source\repos\WinFormsApp1\bin\Debug\net5.0-windows\WinFormsApp1.exe
+C:\Users\MrSemPro\source\repos\WinFormsApp1\bin\Debug\net5.0-windows\WinFormsApp1.deps.json
+C:\Users\MrSemPro\source\repos\WinFormsApp1\bin\Debug\net5.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\MrSemPro\source\repos\WinFormsApp1\bin\Debug\net5.0-windows\WinFormsApp1.runtimeconfig.dev.json
+C:\Users\MrSemPro\source\repos\WinFormsApp1\bin\Debug\net5.0-windows\WinFormsApp1.dll
+C:\Users\MrSemPro\source\repos\WinFormsApp1\bin\Debug\net5.0-windows\WinFormsApp1.pdb
+C:\Users\MrSemPro\source\repos\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.csproj.AssemblyReference.cache
+C:\Users\MrSemPro\source\repos\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\Users\MrSemPro\source\repos\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MrSemPro\source\repos\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\MrSemPro\source\repos\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\Users\MrSemPro\source\repos\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\MrSemPro\source\repos\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.dll
+C:\Users\MrSemPro\source\repos\WinFormsApp1\obj\Debug\net5.0-windows\ref\WinFormsApp1.dll
+C:\Users\MrSemPro\source\repos\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.pdb
+C:\Users\MrSemPro\source\repos\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\MrSemPro\source\repos\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.Form1.resources
+C:\Users\MrSemPro\source\repos\WinFormsApp1\bin\Debug\net5.0-windows\ClosedXML.dll
+C:\Users\MrSemPro\source\repos\WinFormsApp1\bin\Debug\net5.0-windows\CsvHelper.dll
+C:\Users\MrSemPro\source\repos\WinFormsApp1\bin\Debug\net5.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\MrSemPro\source\repos\WinFormsApp1\bin\Debug\net5.0-windows\ExcelNumberFormat.dll
+C:\Users\MrSemPro\source\repos\WinFormsApp1\bin\Debug\net5.0-windows\Irony.dll
+C:\Users\MrSemPro\source\repos\WinFormsApp1\bin\Debug\net5.0-windows\SixLabors.Fonts.dll
+C:\Users\MrSemPro\source\repos\WinFormsApp1\bin\Debug\net5.0-windows\System.IO.Packaging.dll
+C:\Users\MrSemPro\source\repos\WinFormsApp1\bin\Debug\net5.0-windows\XLParser.dll
+C:\Users\MrSemPro\source\repos\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.csproj.CopyComplete
+C:\Users\MrSemPro\source\repos\WinFormsApp1\obj\Debug\net5.0-windows\refint\WinFormsApp1.dll
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\bin\Debug\net5.0-windows\WinFormsApp1.exe
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\bin\Debug\net5.0-windows\WinFormsApp1.deps.json
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\bin\Debug\net5.0-windows\WinFormsApp1.runtimeconfig.json
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\bin\Debug\net5.0-windows\WinFormsApp1.runtimeconfig.dev.json
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\bin\Debug\net5.0-windows\WinFormsApp1.dll
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\bin\Debug\net5.0-windows\WinFormsApp1.pdb
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\bin\Debug\net5.0-windows\ClosedXML.dll
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\bin\Debug\net5.0-windows\CsvHelper.dll
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\bin\Debug\net5.0-windows\DocumentFormat.OpenXml.dll
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\bin\Debug\net5.0-windows\ExcelNumberFormat.dll
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\bin\Debug\net5.0-windows\Irony.dll
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\bin\Debug\net5.0-windows\SixLabors.Fonts.dll
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\bin\Debug\net5.0-windows\System.IO.Packaging.dll
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\bin\Debug\net5.0-windows\XLParser.dll
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\obj\Debug\net5.0-windows\WinFormsApp1.csproj.AssemblyReference.cache
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\obj\Debug\net5.0-windows\WinFormsApp1.Form1.resources
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\obj\Debug\net5.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\obj\Debug\net5.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\obj\Debug\net5.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\obj\Debug\net5.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\obj\Debug\net5.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\obj\Debug\net5.0-windows\WinFormsApp1.csproj.CopyComplete
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\obj\Debug\net5.0-windows\WinFormsApp1.dll
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\obj\Debug\net5.0-windows\refint\WinFormsApp1.dll
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\obj\Debug\net5.0-windows\WinFormsApp1.pdb
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\obj\Debug\net5.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\MrSemPro\GitHub Repositories\WinFormsLabs\FirstLab\obj\Debug\net5.0-windows\ref\WinFormsApp1.dll
