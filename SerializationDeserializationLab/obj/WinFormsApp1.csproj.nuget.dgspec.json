@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MrSemPro\\GitHub Repositories\\WinFormsLabs\\FirstLab\\WinFormsApp1.csproj": {}
+    "C:\\MrSemPro\\GitHub Repositories\\WinFormsLabs\\SerializationDeserializationLab\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "C:\\MrSemPro\\GitHub Repositories\\WinFormsLabs\\FirstLab\\WinFormsApp1.csproj": {
+    "C:\\MrSemPro\\GitHub Repositories\\WinFormsLabs\\SerializationDeserializationLab\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MrSemPro\\GitHub Repositories\\WinFormsLabs\\FirstLab\\WinFormsApp1.csproj",
+        "projectUniqueName": "C:\\MrSemPro\\GitHub Repositories\\WinFormsLabs\\SerializationDeserializationLab\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "C:\\MrSemPro\\GitHub Repositories\\WinFormsLabs\\FirstLab\\WinFormsApp1.csproj",
+        "projectPath": "C:\\MrSemPro\\GitHub Repositories\\WinFormsLabs\\SerializationDeserializationLab\\WinFormsApp1.csproj",
         "packagesPath": "C:\\Users\\MrSemPro\\.nuget\\packages\\",
-        "outputPath": "C:\\MrSemPro\\GitHub Repositories\\WinFormsLabs\\FirstLab\\obj\\",
+        "outputPath": "C:\\MrSemPro\\GitHub Repositories\\WinFormsLabs\\SerializationDeserializationLab\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -29,164 +29,163 @@ namespace WinFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
-            this.FromJSON = new System.Windows.Forms.Button();
-            this.FromXML = new System.Windows.Forms.Button();
-            this.FromCSV = new System.Windows.Forms.Button();
-            this.FromXLSX = new System.Windows.Forms.Button();
-            this.ToXLSX = new System.Windows.Forms.Button();
-            this.ToXML = new System.Windows.Forms.Button();
-            this.ToJSON = new System.Windows.Forms.Button();
-            this.Open = new System.Windows.Forms.Button();
-            this.Save = new System.Windows.Forms.Button();
-            this.FileName = new System.Windows.Forms.TextBox();
-            this.FileContent = new System.Windows.Forms.TextBox();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.ToCSV = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            FromJSON = new System.Windows.Forms.Button();
+            FromXML = new System.Windows.Forms.Button();
+            FromCSV = new System.Windows.Forms.Button();
+            FromXLSX = new System.Windows.Forms.Button();
+            ToXLSX = new System.Windows.Forms.Button();
+            ToXML = new System.Windows.Forms.Button();
+            ToJSON = new System.Windows.Forms.Button();
+            Open = new System.Windows.Forms.Button();
+            Save = new System.Windows.Forms.Button();
+            FileName = new System.Windows.Forms.TextBox();
+            FileContent = new System.Windows.Forms.TextBox();
+            openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            ToCSV = new System.Windows.Forms.Button();
+            SuspendLayout();
             // 
             // FromJSON
             // 
-            this.FromJSON.Location = new System.Drawing.Point(12, 12);
-            this.FromJSON.Name = "FromJSON";
-            this.FromJSON.Size = new System.Drawing.Size(216, 79);
-            this.FromJSON.TabIndex = 0;
-            this.FromJSON.Text = "DeserializeFromJSON";
-            this.FromJSON.UseVisualStyleBackColor = true;
-            this.FromJSON.Click += new System.EventHandler(this.FromJSON_Click);
+            FromJSON.Location = new System.Drawing.Point(12, 12);
+            FromJSON.Name = "FromJSON";
+            FromJSON.Size = new System.Drawing.Size(216, 79);
+            FromJSON.TabIndex = 0;
+            FromJSON.Text = "DeserializeFromJSON";
+            FromJSON.UseVisualStyleBackColor = true;
+            FromJSON.Click += FromJSON_Click;
             // 
             // FromXML
             // 
-            this.FromXML.Location = new System.Drawing.Point(11, 97);
-            this.FromXML.Name = "FromXML";
-            this.FromXML.Size = new System.Drawing.Size(216, 72);
-            this.FromXML.TabIndex = 1;
-            this.FromXML.Text = "DeserializeFromXML";
-            this.FromXML.UseVisualStyleBackColor = true;
-            this.FromXML.Click += new System.EventHandler(this.FromXML_Click);
+            FromXML.Location = new System.Drawing.Point(11, 97);
+            FromXML.Name = "FromXML";
+            FromXML.Size = new System.Drawing.Size(216, 72);
+            FromXML.TabIndex = 1;
+            FromXML.Text = "DeserializeFromXML";
+            FromXML.UseVisualStyleBackColor = true;
+            FromXML.Click += FromXML_Click;
             // 
             // FromCSV
             // 
-            this.FromCSV.Location = new System.Drawing.Point(11, 175);
-            this.FromCSV.Name = "FromCSV";
-            this.FromCSV.Size = new System.Drawing.Size(216, 72);
-            this.FromCSV.TabIndex = 2;
-            this.FromCSV.Text = "DeserializeFromCSV";
-            this.FromCSV.UseVisualStyleBackColor = true;
-            this.FromCSV.Click += new System.EventHandler(this.FromCSV_Click);
+            FromCSV.Location = new System.Drawing.Point(11, 175);
+            FromCSV.Name = "FromCSV";
+            FromCSV.Size = new System.Drawing.Size(216, 72);
+            FromCSV.TabIndex = 2;
+            FromCSV.Text = "DeserializeFromCSV";
+            FromCSV.UseVisualStyleBackColor = true;
+            FromCSV.Click += FromCSV_Click;
             // 
             // FromXLSX
             // 
-            this.FromXLSX.Location = new System.Drawing.Point(12, 253);
-            this.FromXLSX.Name = "FromXLSX";
-            this.FromXLSX.Size = new System.Drawing.Size(389, 62);
-            this.FromXLSX.TabIndex = 3;
-            this.FromXLSX.Text = "ImportFromXLSX";
-            this.FromXLSX.UseVisualStyleBackColor = true;
-            this.FromXLSX.Click += new System.EventHandler(this.FromXLSX_Click);
+            FromXLSX.Location = new System.Drawing.Point(12, 253);
+            FromXLSX.Name = "FromXLSX";
+            FromXLSX.Size = new System.Drawing.Size(389, 62);
+            FromXLSX.TabIndex = 3;
+            FromXLSX.Text = "ImportFromXLSX";
+            FromXLSX.UseVisualStyleBackColor = true;
+            FromXLSX.Click += FromXLSX_Click;
             // 
             // ToXLSX
             // 
-            this.ToXLSX.Location = new System.Drawing.Point(407, 253);
-            this.ToXLSX.Name = "ToXLSX";
-            this.ToXLSX.Size = new System.Drawing.Size(381, 62);
-            this.ToXLSX.TabIndex = 7;
-            this.ToXLSX.Text = "SaveAsXLSX";
-            this.ToXLSX.UseVisualStyleBackColor = true;
-            this.ToXLSX.Click += new System.EventHandler(this.ToXLSX_Click);
+            ToXLSX.Location = new System.Drawing.Point(407, 253);
+            ToXLSX.Name = "ToXLSX";
+            ToXLSX.Size = new System.Drawing.Size(381, 62);
+            ToXLSX.TabIndex = 7;
+            ToXLSX.Text = "SaveAsXLSX";
+            ToXLSX.UseVisualStyleBackColor = true;
+            ToXLSX.Click += ToXLSX_Click;
             // 
             // ToXML
             // 
-            this.ToXML.Location = new System.Drawing.Point(572, 97);
-            this.ToXML.Name = "ToXML";
-            this.ToXML.Size = new System.Drawing.Size(216, 72);
-            this.ToXML.TabIndex = 5;
-            this.ToXML.Text = "SerializeToXML";
-            this.ToXML.UseVisualStyleBackColor = true;
-            this.ToXML.Click += new System.EventHandler(this.ToXML_Click);
+            ToXML.Location = new System.Drawing.Point(572, 97);
+            ToXML.Name = "ToXML";
+            ToXML.Size = new System.Drawing.Size(216, 72);
+            ToXML.TabIndex = 5;
+            ToXML.Text = "SerializeToXML";
+            ToXML.UseVisualStyleBackColor = true;
+            ToXML.Click += ToXML_Click;
             // 
             // ToJSON
             // 
-            this.ToJSON.Location = new System.Drawing.Point(572, 12);
-            this.ToJSON.Name = "ToJSON";
-            this.ToJSON.Size = new System.Drawing.Size(216, 79);
-            this.ToJSON.TabIndex = 4;
-            this.ToJSON.Text = "SerializeToJSON";
-            this.ToJSON.UseVisualStyleBackColor = true;
-            this.ToJSON.Click += new System.EventHandler(this.ToJSON_Click);
+            ToJSON.Location = new System.Drawing.Point(572, 12);
+            ToJSON.Name = "ToJSON";
+            ToJSON.Size = new System.Drawing.Size(216, 79);
+            ToJSON.TabIndex = 4;
+            ToJSON.Text = "SerializeToJSON";
+            ToJSON.UseVisualStyleBackColor = true;
+            ToJSON.Click += ToJSON_Click;
             // 
             // Open
             // 
-            this.Open.Location = new System.Drawing.Point(107, 329);
-            this.Open.Name = "Open";
-            this.Open.Size = new System.Drawing.Size(138, 41);
-            this.Open.TabIndex = 8;
-            this.Open.Text = "Open txt";
-            this.Open.UseVisualStyleBackColor = true;
-            this.Open.Click += new System.EventHandler(this.Open_Click);
+            Open.Location = new System.Drawing.Point(107, 329);
+            Open.Name = "Open";
+            Open.Size = new System.Drawing.Size(138, 41);
+            Open.TabIndex = 8;
+            Open.Text = "Open";
+            Open.UseVisualStyleBackColor = true;
+            Open.Click += Open_Click;
             // 
             // Save
             // 
-            this.Save.Location = new System.Drawing.Point(547, 329);
-            this.Save.Name = "Save";
-            this.Save.Size = new System.Drawing.Size(145, 41);
-            this.Save.TabIndex = 9;
-            this.Save.Text = "Save txt";
-            this.Save.UseVisualStyleBackColor = true;
-            this.Save.Click += new System.EventHandler(this.Save_Click_1);
+            Save.Location = new System.Drawing.Point(547, 329);
+            Save.Name = "Save";
+            Save.Size = new System.Drawing.Size(145, 41);
+            Save.TabIndex = 9;
+            Save.Text = "Save txt";
+            Save.UseVisualStyleBackColor = true;
+            Save.Click += Save_Click_1;
             // 
             // FileName
             // 
-            this.FileName.Location = new System.Drawing.Point(234, 12);
-            this.FileName.Name = "FileName";
-            this.FileName.Size = new System.Drawing.Size(332, 31);
-            this.FileName.TabIndex = 10;
+            FileName.Location = new System.Drawing.Point(234, 12);
+            FileName.Name = "FileName";
+            FileName.Size = new System.Drawing.Size(332, 31);
+            FileName.TabIndex = 10;
             // 
             // FileContent
             // 
-            this.FileContent.Location = new System.Drawing.Point(234, 49);
-            this.FileContent.Multiline = true;
-            this.FileContent.Name = "FileContent";
-            this.FileContent.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.FileContent.Size = new System.Drawing.Size(332, 198);
-            this.FileContent.TabIndex = 11;
+            FileContent.Location = new System.Drawing.Point(234, 49);
+            FileContent.Multiline = true;
+            FileContent.Name = "FileContent";
+            FileContent.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            FileContent.Size = new System.Drawing.Size(332, 198);
+            FileContent.TabIndex = 11;
             // 
             // openFileDialog1
             // 
-            this.openFileDialog1.FileName = "openFileDialog1";
+            openFileDialog1.FileName = "openFileDialog1";
             // 
             // ToCSV
             // 
-            this.ToCSV.Location = new System.Drawing.Point(572, 175);
-            this.ToCSV.Name = "ToCSV";
-            this.ToCSV.Size = new System.Drawing.Size(216, 72);
-            this.ToCSV.TabIndex = 6;
-            this.ToCSV.Text = "SerializeToCSV";
-            this.ToCSV.UseVisualStyleBackColor = true;
-            this.ToCSV.Click += new System.EventHandler(this.ToCSV_Click);
+            ToCSV.Location = new System.Drawing.Point(572, 175);
+            ToCSV.Name = "ToCSV";
+            ToCSV.Size = new System.Drawing.Size(216, 72);
+            ToCSV.TabIndex = 6;
+            ToCSV.Text = "SerializeToCSV";
+            ToCSV.UseVisualStyleBackColor = true;
+            ToCSV.Click += ToCSV_Click;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 403);
-            this.Controls.Add(this.FileContent);
-            this.Controls.Add(this.FileName);
-            this.Controls.Add(this.Save);
-            this.Controls.Add(this.Open);
-            this.Controls.Add(this.ToXLSX);
-            this.Controls.Add(this.ToCSV);
-            this.Controls.Add(this.ToXML);
-            this.Controls.Add(this.ToJSON);
-            this.Controls.Add(this.FromXLSX);
-            this.Controls.Add(this.FromCSV);
-            this.Controls.Add(this.FromXML);
-            this.Controls.Add(this.FromJSON);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(800, 403);
+            Controls.Add(FileContent);
+            Controls.Add(FileName);
+            Controls.Add(Save);
+            Controls.Add(Open);
+            Controls.Add(ToXLSX);
+            Controls.Add(ToCSV);
+            Controls.Add(ToXML);
+            Controls.Add(ToJSON);
+            Controls.Add(FromXLSX);
+            Controls.Add(FromCSV);
+            Controls.Add(FromXML);
+            Controls.Add(FromJSON);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

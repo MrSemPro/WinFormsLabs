@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qhd/SBR7mEqCyJb6wXAr+rHLQ6bhEMDcctnevBT2oi8INIGXPN4TeWD8aE3QY+bIDN+NEZkCWNpDBH9r3m9Tkw==",
+  "dgSpecHash": "/63vg6VTWgDj6vJWvwDuSb+X+QIc1qjKv0vU9Et1/NuaLG36sQZfcLAnsDywv8iq4fG+NLZ/laATEH1v7Vk8ZA==",
   "success": true,
-  "projectFilePath": "C:\\MrSemPro\\GitHub Repositories\\WinFormsLabs\\FirstLab\\WinFormsApp1.csproj",
+  "projectFilePath": "C:\\MrSemPro\\GitHub Repositories\\WinFormsLabs\\SerializationDeserializationLab\\WinFormsApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MrSemPro\\.nuget\\packages\\closedxml\\0.101.0\\closedxml.0.101.0.nupkg.sha512",
     "C:\\Users\\MrSemPro\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",

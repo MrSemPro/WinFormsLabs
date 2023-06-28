@@ -63,10 +63,10 @@ namespace WinFormsApp1
             }
         }
 
-        string sourceText="";
+        string sourceText = "";
         private void Open_Click(object sender, EventArgs e)
         {
-            sourceText=FileContent.Text;
+            sourceText = FileContent.Text;
             try
             {
                 openFileDialog1.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
@@ -84,7 +84,7 @@ namespace WinFormsApp1
                 MessageBox.Show("Ошибка");
                 FileContent.Text = sourceText;
             }
-            
+
         }
 
         private void Save_Click_1(object sender, EventArgs e)
@@ -106,7 +106,7 @@ namespace WinFormsApp1
                 MessageBox.Show("Ошибка");
                 FileContent.Text = sourceText;
             }
-            
+
         }
 
         private void FromJSON_Click(object sender, EventArgs e)
@@ -121,14 +121,14 @@ namespace WinFormsApp1
                 {
                     FileContent.AppendText(eachTruck.AsString() + "   \n");
                 }
-                
+
             }
             catch
             {
                 MessageBox.Show("Ошибка");
                 FileContent.Text = sourceText;
             }
-            
+
         }
 
         private void ToJSON_Click(object sender, EventArgs e)
@@ -141,7 +141,7 @@ namespace WinFormsApp1
                 int i = 0;
                 var listTrucks = new List<Truck>();
                 int iLength = inpLines.Length;
-                while (i<=inpLines.Length-1 && inpLines[i] != null && inpLines[i]!="")
+                while (i <= inpLines.Length - 1 && inpLines[i] != null && inpLines[i] != "")
                 {
                     string inp = inpLines[i];
                     inp.Split();
@@ -163,7 +163,7 @@ namespace WinFormsApp1
         {
             sourceText = FileContent.Text;
             try
-            {                
+            {
                 string[] inpLines = FileContent.Lines;
                 FileContent.Text = "";
                 int i = 0;
@@ -182,7 +182,7 @@ namespace WinFormsApp1
                     formatter.Serialize(fs, listTrucks);
                 }
                 string stringXML = File.ReadAllText("trucks.xml");
-                FileContent.AppendText(stringXML + "\n");                
+                FileContent.AppendText(stringXML + "\n");
                 File.Delete("trucks.xml");
             }
             catch
@@ -210,8 +210,8 @@ namespace WinFormsApp1
                         FileContent.AppendText(eachTruck.AsString() + "   \n");
                     }
 
-                }              
-                
+                }
+
                 File.Delete("trucks.xml");
             }
             catch
@@ -221,7 +221,7 @@ namespace WinFormsApp1
             }
 
         }
-                
+
         private void ToCSV_Click(object sender, EventArgs e)
         {
             sourceText = FileContent.Text;
@@ -240,7 +240,7 @@ namespace WinFormsApp1
                     ++i;
                 }
 
-                
+
                 using (var writer = new StreamWriter("Trucks.csv"))
                 using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
                 {
@@ -248,7 +248,7 @@ namespace WinFormsApp1
                 }
                 string stringXML = File.ReadAllText("Trucks.csv");
                 FileContent.AppendText(stringXML + "\n");
-                File.Delete("Trucks.csv");                
+                File.Delete("Trucks.csv");
             }
             catch
             {
@@ -307,7 +307,7 @@ namespace WinFormsApp1
                     worksheet.Cell("B1").Value = "Model";
                     worksheet.Cell("C1").Value = "LoadCapacity";
                     i = 2;
-                    foreach(Truck eachTruck in listTrucks)
+                    foreach (Truck eachTruck in listTrucks)
                     {
                         worksheet.Cell("A" + i.ToString()).Value = eachTruck.Brand;
                         worksheet.Cell("B" + i.ToString()).Value = eachTruck.Model;
@@ -331,7 +331,7 @@ namespace WinFormsApp1
                 MessageBox.Show("Ошибка");
                 FileContent.Text = sourceText;
             }
-            
+
 
         }
 
@@ -347,7 +347,7 @@ namespace WinFormsApp1
                 // получаем выбранный файл             
                 string filename = openFileDialog1.FileName;
                 MessageBox.Show("Открытие файла...");
-                using var wbook = new XLWorkbook(filename);                
+                using var wbook = new XLWorkbook(filename);
                 var worksheet = wbook.Worksheet(1);
                 List<Truck> listTrucks = new List<Truck>();
                 if (worksheet.Cell("A1").GetValue<string>() == "Brand")
@@ -377,7 +377,7 @@ namespace WinFormsApp1
             {
                 MessageBox.Show("Ошибка");
                 FileContent.Text = sourceText;
-            }            
+            }
         }
     }
 }
